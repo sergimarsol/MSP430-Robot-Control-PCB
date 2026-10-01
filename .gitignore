@@ -1,0 +1,12 @@
+# KiCad caches, backups and local state
+fp-info-cache
+*-backups/
+*.kicad_prl
+_autosave-*
+*.lck
+
+# Build output (CCS)
+Debug/
+Release/
+
+.DS_Store

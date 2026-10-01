@@ -1,4 +1,4 @@
 (fp_lib_table
   (version 7)
-  (lib (name "MiSE")(type "KiCad")(uri "/Users/sergimarsol/Desktop/EET/5e 2n/MISE/lab/llibreries_mise_kicad/MiSE.pretty")(options "")(descr ""))
+  (lib (name "MiSE")(type "KiCad")(uri "${KIPRJMOD}/libraries/MiSE.pretty")(options "")(descr ""))
 )
