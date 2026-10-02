@@ -75,7 +75,7 @@
 			(mirror no)
 			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "SergiMarsol_Gerber/")
+			(outputdirectory "gerbers/")
 		)
 	)
 	(net 0 "")
@@ -211,7 +211,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/8c07ac95-2f67-44d6-b257-3be444b93986")
 		(sheetname "/")
-		(sheetfile "SergiMarsol_projecte_MISE.kicad_sch")
+		(sheetfile "robot_control_board.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 0.735)
@@ -412,7 +412,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/698d1a6c-f6a5-4cb6-86e4-9b96086d6a46")
 		(sheetname "/")
-		(sheetfile "SergiMarsol_projecte_MISE.kicad_sch")
+		(sheetfile "robot_control_board.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.261252 -0.735)
@@ -613,7 +613,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/179c08c6-0010-42b6-9b58-4e11d856eefd")
 		(sheetname "/")
-		(sheetfile "SergiMarsol_projecte_MISE.kicad_sch")
+		(sheetfile "robot_control_board.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.261252 -0.735)
@@ -814,7 +814,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/bae59403-07ec-49c5-8d28-2c63b0c9a400")
 		(sheetname "/")
-		(sheetfile "SergiMarsol_projecte_MISE.kicad_sch")
+		(sheetfile "robot_control_board.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 0.735)
@@ -1015,7 +1015,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/f6c25eac-fd15-4684-8ec7-fb1244c659e2")
 		(sheetname "/")
-		(sheetfile "SergiMarsol_projecte_MISE.kicad_sch")
+		(sheetfile "robot_control_board.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -1.33 -1.33)
@@ -1259,7 +1259,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/0f78f604-dc94-497a-b676-54eded771441")
 		(sheetname "/")
-		(sheetfile "SergiMarsol_projecte_MISE.kicad_sch")
+		(sheetfile "robot_control_board.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 -0.735)
@@ -1460,7 +1460,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/75c4d4e6-576d-4595-9291-f3aec97d7787")
 		(sheetname "/")
-		(sheetfile "SergiMarsol_projecte_MISE.kicad_sch")
+		(sheetfile "robot_control_board.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -1.33 -1.33)
@@ -1704,7 +1704,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/4b4c8753-cd2c-45ce-904f-f02fbeef0043")
 		(sheetname "/")
-		(sheetfile "SergiMarsol_projecte_MISE.kicad_sch")
+		(sheetfile "robot_control_board.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 -0.735)
@@ -1902,7 +1902,7 @@
 		)
 		(path "/4cf01ed5-3cee-4258-a0df-66621db00ce3")
 		(sheetname "/")
-		(sheetfile "SergiMarsol_projecte_MISE.kicad_sch")
+		(sheetfile "robot_control_board.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 33 -14)
@@ -2311,7 +2311,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/7654d032-05c9-487a-b1e5-d844f54ced6c")
 		(sheetname "/")
-		(sheetfile "SergiMarsol_projecte_MISE.kicad_sch")
+		(sheetfile "robot_control_board.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -1.33 -1.33)
@@ -2555,7 +2555,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/d7f51d08-a4fb-4754-b700-5a231490bd4f")
 		(sheetname "/")
-		(sheetfile "SergiMarsol_projecte_MISE.kicad_sch")
+		(sheetfile "robot_control_board.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 -0.735)
@@ -2756,7 +2756,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/8f6922f3-7384-48af-bbcb-bed2a1b35de1")
 		(sheetname "/")
-		(sheetfile "SergiMarsol_projecte_MISE.kicad_sch")
+		(sheetfile "robot_control_board.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -1.33 -1.33)
@@ -3021,7 +3021,7 @@
 		)
 		(path "/51b58473-d2dd-418c-99ec-5283a1be3aef")
 		(sheetname "/")
-		(sheetfile "SergiMarsol_projecte_MISE.kicad_sch")
+		(sheetfile "robot_control_board.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -0.25 1.5)
@@ -3369,7 +3369,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/d2930508-5ae7-4f40-834a-66f5679ca6ec")
 		(sheetname "/")
-		(sheetfile "SergiMarsol_projecte_MISE.kicad_sch")
+		(sheetfile "robot_control_board.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 -0.735)
@@ -3570,7 +3570,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/e93afa00-ea93-4c3c-83d3-d095ce7d4902")
 		(sheetname "/")
-		(sheetfile "SergiMarsol_projecte_MISE.kicad_sch")
+		(sheetfile "robot_control_board.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -1.33 -1.33)
@@ -3814,7 +3814,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/a7941bb6-6609-44b4-89c8-6e409f03df7a")
 		(sheetname "/")
-		(sheetfile "SergiMarsol_projecte_MISE.kicad_sch")
+		(sheetfile "robot_control_board.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -1.33 -1.33)
@@ -4058,7 +4058,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/9dbbb30e-6f3f-45cd-9ef6-a1fab131b1d2")
 		(sheetname "/")
-		(sheetfile "SergiMarsol_projecte_MISE.kicad_sch")
+		(sheetfile "robot_control_board.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -1.33 -1.33)
@@ -4302,7 +4302,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/6b7c4974-1035-4bd4-948e-b4232a8d3eb8")
 		(sheetname "/")
-		(sheetfile "SergiMarsol_projecte_MISE.kicad_sch")
+		(sheetfile "robot_control_board.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.261252 0.735)
@@ -4501,7 +4501,7 @@
 		(property ki_fp_filters "*LDR* R?LDR*")
 		(path "/f862ef8b-99ba-410b-aac5-df61b0f5ac3f")
 		(sheetname "/")
-		(sheetfile "SergiMarsol_projecte_MISE.kicad_sch")
+		(sheetfile "robot_control_board.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -1.33 -1.33)
@@ -4754,7 +4754,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/4506a2fd-04b2-4e7e-ae99-06e4408f88e9")
 		(sheetname "/")
-		(sheetfile "SergiMarsol_projecte_MISE.kicad_sch")
+		(sheetfile "robot_control_board.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -1.33 -1.33)
@@ -5086,7 +5086,7 @@
 		)
 		(path "/c48eff0f-1f0f-42df-91a0-f16d37b3b5a3")
 		(sheetname "/")
-		(sheetfile "SergiMarsol_projecte_MISE.kicad_sch")
+		(sheetfile "robot_control_board.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 7.2 13.48)
@@ -5986,7 +5986,7 @@
 		(property ki_fp_filters "Connector*:*_2x??_*")
 		(path "/5a97cc61-1483-4c3e-9a38-814bece7817c")
 		(sheetname "/")
-		(sheetfile "SergiMarsol_projecte_MISE.kicad_sch")
+		(sheetfile "robot_control_board.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 3.87 -1.33)
@@ -6323,7 +6323,7 @@
 		(property ki_fp_filters "Connector*:*_2x??_*")
 		(path "/50a17df2-9ad0-48e0-a0d2-7e73c3a685de")
 		(sheetname "/")
-		(sheetfile "SergiMarsol_projecte_MISE.kicad_sch")
+		(sheetfile "robot_control_board.kicad_sch")
 		(fp_line
 			(start -3.94 9.02)
 			(end 1.399999 9.02)
@@ -6787,7 +6787,7 @@
 		)
 		(path "/5c12f383-c02e-4079-a5a3-3ed1b26cd28e")
 		(sheetname "/")
-		(sheetfile "SergiMarsol_projecte_MISE.kicad_sch")
+		(sheetfile "robot_control_board.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -3.15 3.15)
@@ -7443,7 +7443,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/7b670bab-a11b-4ead-9308-66ebf304f984")
 		(sheetname "/")
-		(sheetfile "SergiMarsol_projecte_MISE.kicad_sch")
+		(sheetfile "robot_control_board.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 0.735)
@@ -7644,7 +7644,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/3320ca95-de8c-49c5-a662-45d82d680540")
 		(sheetname "/")
-		(sheetfile "SergiMarsol_projecte_MISE.kicad_sch")
+		(sheetfile "robot_control_board.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -1.33 -1.33)
@@ -7884,7 +7884,7 @@
 		(property ki_fp_filters "SOIC*3.9x8.7mm*P1.27mm* DIP*W7.62mm* TSSOP*4.4x5mm*P0.65mm* SSOP*5.3x6.2mm*P0.65mm* MSOP*3x3mm*P0.5mm*")
 		(path "/8da7b4cb-9098-4e73-b2a1-7d51b48d09b9")
 		(sheetname "/")
-		(sheetfile "SergiMarsol_projecte_MISE.kicad_sch")
+		(sheetfile "robot_control_board.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.17 4.325)
@@ -8217,7 +8217,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/8eec581f-4a77-474d-9756-2ef19550995e")
 		(sheetname "/")
-		(sheetfile "SergiMarsol_projecte_MISE.kicad_sch")
+		(sheetfile "robot_control_board.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 0.735)
@@ -8416,7 +8416,7 @@
 		(property ki_fp_filters "*LDR* R?LDR*")
 		(path "/ff9a4783-db13-4829-98a0-9f64f6aed97d")
 		(sheetname "/")
-		(sheetfile "SergiMarsol_projecte_MISE.kicad_sch")
+		(sheetfile "robot_control_board.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 1.33 1.27)
@@ -8669,7 +8669,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/b61c5740-047c-4048-86b5-f6d6dc65cc5a")
 		(sheetname "/")
-		(sheetfile "SergiMarsol_projecte_MISE.kicad_sch")
+		(sheetfile "robot_control_board.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 0.735)
@@ -8870,7 +8870,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/63249310-fbda-440b-a741-0dff77c55257")
 		(sheetname "/")
-		(sheetfile "SergiMarsol_projecte_MISE.kicad_sch")
+		(sheetfile "robot_control_board.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -1.33 -1.33)
@@ -9110,7 +9110,7 @@
 		(property ki_fp_filters "Crystal*")
 		(path "/dca0c4e2-7a0f-4504-b603-d2a28d2f01a5")
 		(sheetname "/")
-		(sheetfile "SergiMarsol_projecte_MISE.kicad_sch")
+		(sheetfile "robot_control_board.kicad_sch")
 		(attr through_hole)
 		(fp_arc
 			(start 0.4755 0.579999)
@@ -9239,7 +9239,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/c5c7385a-591e-4352-87da-e0ef84ee2cf8")
 		(sheetname "/")
-		(sheetfile "SergiMarsol_projecte_MISE.kicad_sch")
+		(sheetfile "robot_control_board.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -1.33 -1.33)
@@ -9481,7 +9481,7 @@
 		(property ki_fp_filters "Potentiometer*")
 		(path "/297f370f-e4ab-43df-8984-318e116f3aeb")
 		(sheetname "/")
-		(sheetfile "SergiMarsol_projecte_MISE.kicad_sch")
+		(sheetfile "robot_control_board.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 1.99 5.81)
@@ -9940,7 +9940,7 @@
 		(property ki_fp_filters "Potentiometer*")
 		(path "/b4c5ca58-f12c-4fbb-92b8-a8092466e0d2")
 		(sheetname "/")
-		(sheetfile "SergiMarsol_projecte_MISE.kicad_sch")
+		(sheetfile "robot_control_board.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 1.99 5.81)
@@ -10401,7 +10401,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/53366e4e-b8cd-4e13-aead-ae7689caa285")
 		(sheetname "/")
-		(sheetfile "SergiMarsol_projecte_MISE.kicad_sch")
+		(sheetfile "robot_control_board.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.261252 -0.735)
@@ -10602,7 +10602,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/e1d27097-117b-4061-a12a-4e5b64c93ef1")
 		(sheetname "/")
-		(sheetfile "SergiMarsol_projecte_MISE.kicad_sch")
+		(sheetfile "robot_control_board.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 -0.735)

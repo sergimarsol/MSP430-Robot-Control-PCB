@@ -9,7 +9,7 @@
   },
   "GeneralSpecs": {
     "ProjectId": {
-      "Name": "SergiMarsol_projecte_MISE",
+      "Name": "robot_control_board",
       "GUID": "53657267-694d-4617-9273-6f6c5f70726f",
       "Revision": "rev?"
     },
@@ -34,32 +34,32 @@
   ],
   "FilesAttributes": [
     {
-      "Path": "SergiMarsol_projecte_MISE-F_Cu.gbr",
+      "Path": "robot_control_board-F_Cu.gbr",
       "FileFunction": "Copper,L1,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "SergiMarsol_projecte_MISE-B_Cu.gbr",
+      "Path": "robot_control_board-B_Cu.gbr",
       "FileFunction": "Copper,L2,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "SergiMarsol_projecte_MISE-F_Silkscreen.gbr",
+      "Path": "robot_control_board-F_Silkscreen.gbr",
       "FileFunction": "Legend,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "SergiMarsol_projecte_MISE-F_Mask.gbr",
+      "Path": "robot_control_board-F_Mask.gbr",
       "FileFunction": "SolderMask,Top",
       "FilePolarity": "Negative"
     },
     {
-      "Path": "SergiMarsol_projecte_MISE-B_Mask.gbr",
+      "Path": "robot_control_board-B_Mask.gbr",
       "FileFunction": "SolderMask,Bot",
       "FilePolarity": "Negative"
     },
     {
-      "Path": "SergiMarsol_projecte_MISE-Edge_Cuts.gbr",
+      "Path": "robot_control_board-Edge_Cuts.gbr",
       "FileFunction": "Profile",
       "FilePolarity": "Positive"
     }

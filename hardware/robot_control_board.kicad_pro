@@ -465,7 +465,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "SergiMarsol_projecte_MISE.kicad_pro",
+    "filename": "robot_control_board.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -550,7 +550,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "SergiMarsol_Gerber/",
+      "plot": "gerbers/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",

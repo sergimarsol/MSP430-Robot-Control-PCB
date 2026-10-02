@@ -8,7 +8,7 @@
 
 ## Overview
 
-This was the term project for *Microcontroladors i Sistemes Empotrats* (Microcontrollers and Embedded Systems) in the Electronic and Telecommunications Engineering degree at the Universitat de Barcelona (spring 2025). The brief was to design a controller board for a mobile robot base, have it fabricated, assemble it, and write firmware that lets a user pick an operating mode from an on-board menu and then drive the robot by hand or let it run on its own.
+The goal: design a controller board for a mobile robot base, have it fabricated, assemble it, and write bare-metal firmware that lets a user pick an operating mode from an on-board menu and then either drive the robot by hand or let it run autonomously.
 
 I did the whole project alone: block diagram, schematic, PCB layout, assembly, hardware debugging, and every firmware driver.
 
@@ -21,7 +21,7 @@ I did the whole project alone: block diagram, schematic, PCB layout, assembly, h
   - two LDR + trimmer voltage dividers on ADC inputs,
   - a 14-pin connector to the robot base, an ESP-01 (UART) footprint, and test points on the key signals.
 
-  The board passed ERC and DRC with no errors, and I generated Gerbers and had it fabricated.
+  I ran ERC/DRC, generated the Gerbers and had the board fabricated and assembled.
 - **Board bring-up and hardware fix.** During bring-up I found that the two LDR traces had been routed to pins without ADC capability. I replaced the microcontroller and reworked two tracks so the light sensors reach ADC channels A10/A11 (P5.2/P5.3).
 - **Interrupt-driven I2C master driver.** eUSCI_B1 runs as an I2C master on P4.6/P4.7 at about 100 kHz (SMCLK 16 MHz / 160). TX and RX are handled in the ISR while the CPU sleeps in LPM0. One `I2C_send`/`I2C_receive` pair serves all peripherals:
   - the robot base at address `0x10`: motors (command `0x00`), RGB LEDs (`0x0B`) and line sensors (`0x1D`),
@@ -136,8 +136,8 @@ The CCS build map committed in `firmware/Debug/` reports about 4.0 KB of the 32 
 │   ├── targetConfigs/         # CCS debug-probe target configuration
 │   └── Debug/                 # CCS build output (generated)
 ├── hardware/
-│   ├── SergiMarsol_projecte_MISE.kicad_pro / .kicad_sch / .kicad_pcb
-│   ├── SergiMarsol_Gerber/    # Fabrication outputs (Gerbers + drill)
+│   ├── robot_control_board.kicad_pro / .kicad_sch / .kicad_pcb
+│   ├── gerbers/    # Fabrication outputs (Gerbers + drill)
 │   ├── libraries/MiSE.pretty/ # Course-provided footprint library
 │   └── fp-lib-table           # Points to the project-relative MiSE library
 ├── figures/                   # README images (rendered from KiCad and the presentation)
@@ -151,8 +151,8 @@ The CCS build map committed in `firmware/Debug/` reports about 4.0 KB of the 32 
 
 ### Hardware
 1. Install **KiCad 9** or newer. The project files were saved with KiCad 9.0.
-2. Open `hardware/SergiMarsol_projecte_MISE.kicad_pro`. The `MiSE` footprint library resolves automatically through `${KIPRJMOD}/libraries/MiSE.pretty`.
-3. Ready-to-send fabrication files are in `hardware/SergiMarsol_Gerber/`.
+2. Open `hardware/robot_control_board.kicad_pro`. The `MiSE` footprint library resolves automatically through `${KIPRJMOD}/libraries/MiSE.pretty`.
+3. Ready-to-send fabrication files are in `hardware/gerbers/`.
 
 ### Firmware
 The repository holds the sources only, not the CCS `.project`/`.cproject` files, so you build them in a new project:
@@ -169,7 +169,7 @@ The repository holds the sources only, not the CCS `.project`/`.cproject` files,
 
 ## Acknowledgements
 
-- Course: *Microcontroladors i Sistemes Empotrats*, Universitat de Barcelona.
+- Developed for *Microcontrollers and Embedded Systems* (Electronic & Telecommunications Engineering, Universitat de Barcelona, spring 2025).
 - The robot base (motor, LED and line-sensor controller reachable over I2C) and the `MiSE.pretty` footprint library came with the course.
 - Author: **Sergi Marsol** (individual project).
 
